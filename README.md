@@ -3,10 +3,10 @@ Overview
 Rewrite is a user-centric website and blogging application for Django.  It's designed to be simple to use. Its target audience is people and organizations who need a website, and who aren't particularly likely to know what a "CMS" is.  Editing websites and posting blog entries should be simple.  We built rewrite to make it that way.
 
 
-Why another CMS/Blog?!?!?!
+Why another CMS/Blog??
 ==========================
 
-Don't get me wrong, there are some great CMS and Blog projects for Django out there, Django-CMS and Mezzanine chief among them.  But they're also industrial-weight solutions, requiring lots of tuning for simple setups.  They're also built around the Django admin site - which is really more of a data-editing scaffold than a true content-administration UI.  
+Don't get me wrong, there are some great CMS and Blog projects for Django out there, Django-CMS and Mezzanine chief among them.  But they're also industrial-weight solutions, requiring lots of tuning for simple setups. They're also built around the Django admin site - which is really more of a data-editing scaffold than a true content-administration UI.  
 
 We created django-rewrite to provide a simple website editor and blog that was a joy to use, and where users would always know what their content looked like, and how to change it.
 
@@ -16,19 +16,19 @@ The basic philosophy for both content editing and template editing is this: You 
 
 
 Project Status
-==============
+=======================================================================================================				
 
 Rewrite is 0.1 version complete, and working. It's currently only halfway tested, as we realized that it isn't our top business priority about two weeks out from release.  It will be picked up with renewed vigor in early 2012, most likely.  
 
 
 Documentation Status
-====================
+======================================================================================================
 
 Currently incomplete, but with slow but steady improvement. We're a startup, and as you might imagine, our priorities are often elsewhere.  But it is valued, we're working on it, and your suggestions and improvements are always welcome.
 
 
 Dependencies
-============
+======================================================================================================
 - Django >= 1.3
 - south, if you'd like to use the migrations (we'll maintain any schema changes in it.)
 
@@ -61,7 +61,7 @@ Add sections and pages via the management console.  Drag/drop to reorder.
 
 To edit a page, visit it logged in, and click "Edit Page".  It's now editable. Make your changes, and click "Save".  That's it. You'll notice throughout the process that it looks like you're browsing the site. That's the exactly the point.
 
-More detailed instructions coming, but that should be enough to get you started!
+More detailed instructions coming, but that should be enough to get you started!.
 
 
 Templates and Styling
